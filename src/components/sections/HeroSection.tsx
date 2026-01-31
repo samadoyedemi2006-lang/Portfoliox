@@ -70,7 +70,7 @@ export default function HeroSection() {
           >
             <div className="relative h-56 w-56 rounded-full border border-primary/30 bg-primary/10 backdrop-blur-md md:h-72 md:w-72 lg:h-80 lg:w-80">
               <img
-                src="/IMG_4598.png"
+                src="/Portfoliox/IMG_4598.png"
                 alt="Profile"
                 className="h-full w-full rounded-full object-cover"
               />

@@ -8,7 +8,7 @@ const projects = [
     title: 'E-Commerce Platform',
     description:
       'A full-featured e-commerce platform with real-time inventory, AI-powered recommendations, and seamless checkout experience.',
-    image: '/aa.PNG',
+    image: '/Portfoliox/aa.PNG',
     tags: ['React', 'Node.js'],
     liveUrl: 'https://samadoyedemi2006-lang.github.io/FoodExpress/#/menu',
     githubUrl: '#',
@@ -38,7 +38,7 @@ const projects = [
     title: 'Expense Tracker App',
     description:
       'A modern social platform with real-time messaging, content sharing, and community features.',
-    image: '/IK.PNG',
+    image: '/Portfoliox/IK.PNG',
     tags: ['React', 'Tailwind CSS'],
     liveUrl: 'https://samadoyedemi2006-lang.github.io/Expense-Tracker/#/form',
     githubUrl: '#',
