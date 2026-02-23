@@ -2,27 +2,25 @@ import { useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
 import {
   SiReact,
-  SiTypescript,
   SiTailwindcss,
   SiNodedotjs,
   SiBootstrap,
-  SiCanva,
-  SiAdobephotoshop,
-  SiCoreldraw,
   SiGit,
-  SiThreedotjs,
+  SiMongodb,
+  SiExpress,
+  SiJavascript,
+  SiOpenai,
 } from 'react-icons/si';
 
 const skills = [
   { name: 'React', icon: SiReact, color: '#61DAFB', level: 95 },
-  { name: 'TypeScript', icon: SiTypescript, color: '#3178C6', level: 90 },
+  { name: 'JavaScript', icon: SiJavascript, color: '#F7DF1E', level: 95 },
   { name: 'Tailwind CSS', icon: SiTailwindcss, color: '#06B6D4', level: 95 },
   { name: 'Bootstrap', icon: SiBootstrap, color: '#7952B3', level: 90 },
-  { name: 'Node.js', icon: SiNodedotjs, color: '#339933', level: 85 },
-  { name: 'Three.js', icon: SiThreedotjs, color: '#FFFFFF', level: 75 },
-  { name: 'Canva', icon: SiCanva, color: '#00C4CC', level: 90 },
-  { name: 'Photoshop', icon: SiAdobephotoshop, color: '#31A8FF', level: 85 },
-  { name: 'CorelDRAW', icon: SiCoreldraw, color: '#46A049', level: 80 },
+  { name: 'Node.js', icon: SiNodedotjs, color: '#339933', level: 88 },
+  { name: 'Express', icon: SiExpress, color: '#FFFFFF', level: 85 },
+  { name: 'MongoDB', icon: SiMongodb, color: '#47A248', level: 85 },
+  { name: 'AI', icon: SiOpenai, color: '#10A37F', level: 70 },
   { name: 'Git', icon: SiGit, color: '#F05032', level: 95 },
 ];
 
@@ -76,7 +74,7 @@ export default function SkillsSection() {
             <span className="gradient-text"> Master</span>
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-muted-foreground">
-            A balanced mix of frontend development and creative design tools
+            Modern frontend, backend, and emerging AI-driven technologies
           </p>
         </motion.div>
 
@@ -145,7 +143,7 @@ export default function SkillsSection() {
           className="mt-12 text-center"
         >
           <p className="text-muted-foreground">
-            Blending clean code with strong visual design for impactful experiences.
+            Building scalable applications with clean code and smart technologies.
           </p>
         </motion.div>
       </div>

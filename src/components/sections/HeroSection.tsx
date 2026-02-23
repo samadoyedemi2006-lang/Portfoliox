@@ -111,8 +111,9 @@ export default function HeroSection() {
               ref={subtitleRef}
               className="mb-10 max-w-2xl text-lg text-muted-foreground md:text-xl"
             >
-              I craft immersive digital experiences with cutting-edge technologies.
-              Specializing in 3D web applications, interactive animations, and modern UI/UX design.
+             I specialize in developing backend logic for modern applications,
+                including RESTful APIs, authentication systems, database architecture,
+                and performance optimization. 
             </p>
 
             {/* Buttons */}

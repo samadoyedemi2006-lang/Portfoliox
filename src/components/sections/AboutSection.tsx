@@ -7,10 +7,10 @@ import { Code2, Palette, Zap, Coffee } from 'lucide-react';
 gsap.registerPlugin(ScrollTrigger);
 
 const stats = [
-  { icon: Code2, value: '1+', label: 'Years Experience' },
-  { icon: Palette, value: '10+', label: 'Projects Completed' },
-  { icon: Zap, value: '100%', label: 'Client Satisfaction' },
-  { icon: Coffee, value: '∞', label: 'Cups of Coffee' },
+  { icon: Code2, value: '1+', label: 'Years Backend Experience' },
+  { icon: Palette, value: '10+', label: 'APIs & Systems Built' },
+  { icon: Zap, value: '99.9%', label: 'System Reliability' },
+  { icon: Coffee, value: '∞', label: 'Debug Sessions' },
 ];
 
 export default function AboutSection() {
@@ -95,8 +95,8 @@ export default function AboutSection() {
             variants={itemVariants}
             className="font-display text-3xl font-bold md:text-5xl"
           >
-            Turning Ideas Into
-            <span className="gradient-text"> Digital Reality</span>
+            Powering Systems Behind
+            <span className="gradient-text"> The Scenes</span>
           </motion.h2>
         </motion.div>
 
@@ -115,7 +115,7 @@ export default function AboutSection() {
               </h3>
               <div ref={textRef} className="text-muted-foreground leading-relaxed">
                 {splitText(
-                  "I'm a passionate frontend developer and creative technologist with over 1+ years of experience crafting exceptional digital experiences. My journey in tech began with a fascination for how beautiful interfaces and powerful technology can transform ideas into reality."
+                  "I'm a backend-focused developer with over 1+ years of experience building reliable server-side systems. I enjoy designing APIs, managing databases, and ensuring that applications run securely, efficiently, and at scale."
                 )}
               </div>
             </motion.div>
@@ -125,9 +125,10 @@ export default function AboutSection() {
                 What I Do
               </h3>
               <p className="text-muted-foreground leading-relaxed">
-                I specialize in building modern web applications with cutting-edge technologies.
-                From interactive 3D experiences, I bring a unique
-                blend of technical expertise and creative vision to every project.
+                I specialize in developing backend logic for modern applications,
+                including RESTful APIs, authentication systems, database architecture,
+                and performance optimization. My focus is building stable foundations
+                that frontend experiences can rely on.
               </p>
             </motion.div>
           </motion.div>
@@ -139,7 +140,7 @@ export default function AboutSection() {
             animate={isInView ? 'visible' : 'hidden'}
             className="grid grid-cols-2 gap-4"
           >
-            {stats.map((stat, index) => (
+            {stats.map((stat) => (
               <motion.div
                 key={stat.label}
                 variants={itemVariants}
